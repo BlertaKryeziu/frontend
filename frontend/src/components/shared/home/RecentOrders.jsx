@@ -8,16 +8,16 @@ const RecentOrders = () => {
       <div className='bg-[#ffffff] w-full h-[450px] rounded-lg shadow-md'>
         <div className='flex justify-between items-center px-6 py-4'>
           <h1 className='text-[#333] text-lg font-semibold tracking-wide'>Recent Orders</h1>
-          <a href="#" className='text-[#025cca] text-sm font-semibold'>View all</a>
+          <a href="orders" className='text-[#025cca] text-sm font-semibold'>View all</a>
         </div>
 
-        {/* Search Input */}
+      
         <div className='flex items-center gap-4 bg-[#f9f9f9] rounded-lg px-6 py-4 mx-6'>
           <FaSearch className="text-[#333]" />
           <input placeholder="Search Orders" className="bg-[#f9f9f9] outline-none text-2xl text-[#333]" />
         </div>
 
-        {/* Scrollable Orders List */}
+        
         <div className="bg-[#f9f9f9] mt-4 px-6 overflow-y-auto max-h-[300px] scrollbar-hide">
           <OrderList />
           <OrderList />

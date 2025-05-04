@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, CardHeader, CardContent } from '../../ui/card';  // Importimi i Kartelës dhe Komponentëve të Tjerë
-import { Button } from '../../ui/button';  // Importimi i Butonit
+import { Card, CardHeader, CardContent } from '../../ui/card'; 
+import { Button } from '../../ui/button';  
 
 const MiniCard = ({ title, icon, number, footerNum }) => {
   return (
